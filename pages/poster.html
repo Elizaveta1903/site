@@ -80,6 +80,12 @@
 			table-layout: fixed; /* Ячейки фиксированной ширины */
 			text-align: center;
 		}
+		.scale {
+			transition: 1s; /*время эффекта*/
+		}
+		.scale:hover {
+			transform: scale(1.2); /* Увеличиваем масштаб */
+		}
 		#footer {
 	    /* position: fixed; /* Фиксированное положение */
 	    left: 0; bottom: 0; /* Левый нижний угол */
@@ -132,10 +138,10 @@
 		<div>
 			<table style="width: 80%">
 				<tr>
-				<td><img src="images/poster1.jfif"></td>
-				<td><img src="images/poster2.jfif"></td>
-				<td><img src="images/poster3.jfif"></td>
-				<td><img src="images/poster4.jfif"></td>
+				<td><img src="images/poster1.jfif" class="scale"></td>
+				<td><img src="images/poster2.jfif" class="scale"></td>
+				<td><img src="images/poster3.jfif" class="scale"></td>
+				<td><img src="images/poster4.jfif" class="scale"></td>
 			</tr>
 			</table>
 		</div>
@@ -143,16 +149,16 @@
 	<div class="text" style="margin-top: 0px">
 		<table>
 			<tr>
-				<td><img src="images/poster5.jfif"></td>
-				<td><img src="images/poster6.jfif"></td>
-				<td><img src="images/poster7.jfif"></td>
-				<td><img src="images/poster8.jfif"></td>
+				<td><img src="images/poster5.jfif" class="scale"></td>
+				<td><img src="images/poster6.jfif" class="scale"></td>
+				<td><img src="images/poster7.jfif" class="scale"></td>
+				<td><img src="images/poster8.jfif" class="scale"></td>
 			</tr>
 			<tr>
-				<td><img src="images/poster9.jfif"></td>
-				<td><img src="images/poster10.jfif"></td>
-				<td><img src="images/poster11.jfif"></td>
-				<td><img src="images/poster12.jfif"></td>
+				<td><img src="images/poster9.jfif" class="scale"></td>
+				<td><img src="images/poster10.jfif" class="scale"></td>
+				<td><img src="images/poster11.jfif" class="scale"></td>
+				<td><img src="images/poster12.jfif" class="scale"></td>
 			</tr>
 		</table>
 	</div>

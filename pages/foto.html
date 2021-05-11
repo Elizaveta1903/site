@@ -80,6 +80,12 @@
 			table-layout: fixed; /* Ячейки фиксированной ширины */
 			text-align: center;
 		}
+		.scale {
+			transition: 1s; /*время эффекта*/
+		}
+		.scale:hover {
+			transform: scale(1.2); /* Увеличиваем масштаб */
+		}
 		#footer {
 	    /* position: fixed; /* Фиксированное положение */
 	    left: 0; bottom: 0; /* Левый нижний угол */
@@ -132,9 +138,9 @@
 		<div>
 			<table style="width: 80%">
 				<tr>
-				<td><img src="images/foto1.jfif"></td>
-				<td><img src="images/foto2.jfif"></td>
-				<td><img src="images/foto3.jfif"></td>
+				<td><img src="images/foto1.jfif" class="scale"></td>
+				<td><img src="images/foto2.jfif" class="scale"></td>
+				<td><img src="images/foto3.jfif" class="scale"></td>
 			</tr>
 			</table>
 		</div>
@@ -142,19 +148,19 @@
 	<div class="text" style="margin-top: 0px">
 		<table>
 			<tr>
-				<td><img src="images/foto4.jfif"></td>
-				<td><img src="images/foto5.jfif"></td>
-				<td><img src="images/foto6.jfif"></td>
+				<td><img src="images/foto4.jfif" class="scale"></td>
+				<td><img src="images/foto5.jfif" class="scale"></td>
+				<td><img src="images/foto6.jfif" class="scale"></td>
 			</tr>
 			<tr>
-				<td><img src="images/foto7.jfif"></td>
-				<td><img src="images/foto8.jfif"></td>
-				<td><img src="images/foto9.jfif"></td>
+				<td><img src="images/foto7.jfif" class="scale"></td>
+				<td><img src="images/foto8.jfif" class="scale"></td>
+				<td><img src="images/foto9.jfif" class="scale"></td>
 			</tr>
 			<tr>
-				<td><img src="images/foto10.jfif"></td>
-				<td><img src="images/foto11.jfif"></td>
-				<td><img src="images/foto12.jfif"></td>
+				<td><img src="images/foto10.jfif" class="scale"></td>
+				<td><img src="images/foto11.jfif" class="scale"></td>
+				<td><img src="images/foto12.jfif" class="scale"></td>
 			</tr>
 		</table>
 	</div>
