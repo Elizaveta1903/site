@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUPERNATURAL</title>
+	<style type="text/css">
+		* {
+			margin: 0; /*отступ со всех сторон*/
+    		padding: 0; /*Свойство padding устанавливает внутренние отступы/поля со всех сторон элемента*/
+		}
+		body {
+			background-image: url(images/fo.jfif); /*Цвет фона */
+			/*background-color: #464e5a*/
+		}
+		#header	{
+			width: 100%;
+  			height: 60px;
+  			margin-bottom: 0px; 
+    		background-image: url(images/sh.jpg);
+    		position: fixed;
+    		/*z-index: 1000;*/
+    		top: 0; /*крепление к верху*/
+    		margin: 0;
+    		padding: 0;
+		}
+		
+		h1 {
+			color: #ffee00;  /*цвет заголовка*/
+  			font: 40px Georgia;  /*шрифт*/
+			margin-left: 40%;  /*отступ слева*/
+			margin-bottom: 10px;
+		}
+		ul {
+  			list-style: none; /*убираем маркеры списка*/
+  			margin: 0; /*убираем отступы*/
+  			padding-left: 200px; /*убираем отступы*/
+  			margin-top:0; /*делаем отступ сверху*/
+  			background:#304156; /*добавляем фон всему меню*/
+  			height: 50px; /*задаем высоту*/
+		}
+		a {
+  			text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  			background:#304156; /*добавляем фон к пункту меню*/
+  			color:#fff; /*меняем цвет ссылок*/
+  			padding:0px 50px; /*добавляем отступ*/
+  			font-family: arial; /*меняем шрифт*/
+  			line-height:50px; /*ровняем меню по вертикали*/
+  			display: block; /*display: block Превратит любой элемент в блочный. Этот метод часто используется для ссылок, чтобы увеличить зону их щелчка, которую можно легко оценить, задав цвет фона.*/
+    		border-right: 1px solid #444; /*добавляем бордюр справа*/
+		}
+		a:hover {
+  			background:#a16974;/*меняет цвет при наведении*/
+		}
+
+		li {
+  			float:left; /*Размещаем список горизонтально для реализации меню*/
+  			position:relative; /*задаем позицию для позиционирования*/
+		}
+		aside {
+			background: rgba(255, 250, 250, 0.35); /* Цвет фона ([х,х,x]цвет, [0.4 прозрачность] */
+			font: 13px  Lucida Sans Unicode;
+    		color: #D3D3D3; /* Цвет текста */
+    		/* padding: 0px; Поля вокруг текста */
+    		margin-top: 0px;
+    		float: left; /*положение текста*/
+    		padding: 0px
+    	
+		}
+		.text {
+			background: rgba(255, 250, 250, 0.35); /* Цвет фона ([х,х,x]цвет, [0.4 прозрачность] */
+			font: 15px  Lucida Sans Unicode;
+    		color: #D3D3D3; /* Цвет текста */
+    		padding: 5px; /* Поля вокруг текста */
+    		margin-top: 120px;
+    		text-align: justify; /*положение текста*/
+    		margin-right: 100px;
+    		margin-left: 100px;
+		}
+		table {
+			width: 100%;
+			table-layout: fixed; /* Ячейки фиксированной ширины */
+			text-align: center;
+		}
+		#footer {
+	    /* position: fixed; /* Фиксированное положение */
+	    left: 0; bottom: 0; /* Левый нижний угол */
+	    padding: 10px; /* Поля вокруг текста */
+	    background: #304156; /* Цвет фона */
+	    color: #D3D3D3; /* Цвет текста */
+	    width: 100%; /* Ширина слоя */
+   		}
+	</style>
+</head>
+<body>
+	<!--основной блок сайта -->
+
+	<!--шапка сайта-->
+	<header id="header">
+		<div>
+			<h1>SUPERNATURAL</h1>			
+		</div>
+		<!--верхнее меню-->
+	<!--тег <ul> устанавливает маркированный список.каждый эл-т начинается с li-->
+	<!--тег <а> для создания ссылок-->
+	<!--элемент <li> используется для создания элементов списка-->
+		<nav>
+	<div>
+		<ul> 
+			<li><a  href="../index.html">Главная</a></li>
+			<li><a  href="news.html">Новости сериала</a></li>
+			<li><a  href="foto.html">Кадры</a></li>
+			<li><a  href="contacts.html">Контакты</a></li>
+			<li><a  href="different.html">Разное о сериале</a></li>
+		</ul>
+	</div>
+	</nav>
+	</header>
+
+	<div class="text">
+		<div>
+			<aside>
+				<p><a href="poster.html">Постеры</a></p>
+				<p><a href="1sezon.html">1 сезон</a></p>
+				<p><a href="2sezon.html">2 сезон</a></p>
+				<p><a href="3sezon.html">3 сезон</a></p>
+				<p><a href="4sezon.html">4 сезон</a></p>
+				<p><a href="ski.html">Фото со съемок</a></p>
+			</aside>
+		</div>
+		<div>
+			<p style="font: 25px  Lucida Sans Unicode;text-align: center;">Постеры</p>
+		</div>
+		<div>
+			<table style="width: 80%">
+				<tr>
+				<td><img src="images/poster1.jfif"></td>
+				<td><img src="images/poster2.jfif"></td>
+				<td><img src="images/poster3.jfif"></td>
+				<td><img src="images/poster4.jfif"></td>
+			</tr>
+			</table>
+		</div>
+	</div>
+	<div class="text" style="margin-top: 0px">
+		<table>
+			<tr>
+				<td><img src="images/poster5.jfif"></td>
+				<td><img src="images/poster6.jfif"></td>
+				<td><img src="images/poster7.jfif"></td>
+				<td><img src="images/poster8.jfif"></td>
+			</tr>
+			<tr>
+				<td><img src="images/poster9.jfif"></td>
+				<td><img src="images/poster10.jfif"></td>
+				<td><img src="images/poster11.jfif"></td>
+				<td><img src="images/poster12.jfif"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="footer">
+		<p style="text-align: left;">SUPERNATURAL</p>
+		<p style="text-align: left;">&copy;2021-Romanova</p>
+		<p style="text-align: right; padding-right: 20px">ТГПУ</p>
+	</div>
+</body>
+</html>
